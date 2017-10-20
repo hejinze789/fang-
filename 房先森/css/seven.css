@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header img {
+    width: 2.15rem;
+    height: 0.7rem;
+    margin: 0.16rem 0 0.16rem 0.18rem; }
+  header span {
+    font-size: 0.36rem; }
+  header .rig {
+    display: flex;
+    align-items: center;
+    margin-right: 0.18rem; }
+    header .rig div {
+      text-align: center;
+      margin-left: 0.2rem;
+      font-size: 0.22rem;
+      color: #999999; }
+      header .rig div span {
+        font-size: 0.45rem; }
+
+.swiper1 {
+  width: 100%; }
+  .swiper1 img {
+    width: 100%; }
+
+article {
+  width: 100%; }
+  article .zw {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.2rem 0.18rem 0.3rem 0.18rem; }
+    article .zw .z1 {
+      width: 100%;
+      background: #F4F4F4;
+      font-size: 0.24rem; }
+    article .zw .zxys {
+      width: 100%;
+      text-align: center;
+      margin: 0.36rem 0 0.3rem 0;
+      font-size: 0.36rem; }
+    article .zw .icon {
+      width: 100%;
+      text-align: center;
+      font-size: 0.24rem;
+      color: #999;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid #EAEAEA; }
+      article .zw .icon span {
+        font-size: 0.28rem; }
+    article .zw .kt {
+      width: 100%;
+      font-size: 0.24rem;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 0.23rem; }
+      article .zw .kt li {
+        height: 0.32rem;
+        line-height: 0.32rem;
+        border-radius: 16px;
+        padding: 0 0.13rem;
+        border: 1px solid #EAEAEA;
+        color: #999;
+        margin-right: 0.12rem;
+        margin-bottom: 0.18rem; }
+      article .zw .kt li:nth-of-type(5) {
+        margin-bottom: 0; }
+      article .zw .kt li:nth-of-type(6) {
+        margin-bottom: 0; }
+    article .zw .dy {
+      width: 100%; }
+      article .zw .dy p {
+        margin: 0.36rem 0 0.3rem 0;
+        font-size: 0.24rem;
+        color: #666;
+        text-indent: 2em; }
+      article .zw .dy .img {
+        width: 100%;
+        text-align: center; }
+        article .zw .dy .img img {
+          width: 5.3rem;
+          height: 3.5rem;
+          margin: 0 0 0.5rem 0; }
+    article .zw .btn {
+      width: 100%; }
+      article .zw .btn button {
+        width: 100%;
+        font-size: 0.36rem;
+        border: 1px solid #95DFC3;
+        outline: none;
+        height: 0.7rem;
+        line-height: 0.7rem;
+        color: #95DFC3;
+        margin: 0.36rem 0;
+        background: none; }
+      article .zw .btn button:nth-of-type(1) {
+        margin-top: 0 !important; }
+      article .zw .btn div {
+        width: 100%;
+        display: flex;
+        text-align: center; }
+        article .zw .btn div li {
+          font-size: 0.24rem;
+          color: #6CBFF9; }
+          article .zw .btn div li p {
+            width: 1rem;
+            height: 1rem;
+            border: 0.03rem solid #6CBFF9;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 0.56rem;
+            line-height: 1rem; }
+          article .zw .btn div li span {
+            font-size: 0.24rem; }
+        article .zw .btn div li:nth-of-type(1) {
+          margin-left: 1.6rem;
+          margin-right: 1.8rem; }
+        article .zw .btn div li:nth-of-type(2) {
+          color: #FBB405; }
+          article .zw .btn div li:nth-of-type(2) p {
+            border: 0.03rem solid #FBB405; }
+  article .cnxh {
+    border-bottom: 0.18rem solid #eaeaea;
+    border-top: 0.18rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 0.32rem 0.18rem 0 0.18rem; }
+    article .cnxh .q1 {
+      width: 100%;
+      height: 0.42rem;
+      line-height: 0.42rem;
+      border-left: 0.05rem solid #38c993;
+      margin-bottom: 0.32rem;
+      font-size: 0.36rem; }
+    article .cnxh .content {
+      width: 100%; }
+      article .cnxh .content .dd {
+        width: 100%;
+        display: flex;
+        color: #999;
+        padding-bottom: 0.31rem;
+        border-bottom: 1px solid #999;
+        margin-bottom: 0.32rem;
+        font-size: 0.28rem; }
+        article .cnxh .content .dd img {
+          width: 1.9rem;
+          height: 1.45rem;
+          margin-right: 0.22rem; }
+        article .cnxh .content .dd p {
+          margin: 0 0 0.22rem 0;
+          font-size: 0.36rem;
+          color: #000; }
+        article .cnxh .content .dd span {
+          font-size: 0.28rem; }
+        article .cnxh .content .dd span:nth-of-type(2) {
+          margin-left: 0.75rem; }
+      article .cnxh .content .dd:nth-of-type(5) {
+        border: none;
+        margin-bottom: 0; }
+
+footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.36rem 0.16rem;
+  font-size: 0.28rem;
+  border-bottom: 0.18rem solid lightgray; }
+  footer p {
+    margin: 0; }
+
+.fw {
+  width: 100%;
+  text-align: center;
+  font-size: 0.28rem;
+  padding-top: 0.36rem;
+  position: relative; }
+  .fw span {
+    font-size: 0.32rem;
+    color: #39C893; }
+  .fw .top {
+    position: absolute;
+    right: 0.3rem;
+    width: 0.94rem;
+    height: 0.94rem;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    line-height: 0.94rem;
+    background: white;
+    top: -0.5rem; }
+    .fw .top span {
+      font-size: 0.4rem;
+      color: #9c9c9c; }
+  .fw .for {
+    width: 100%;
+    display: flex;
+    margin-top: 0.36rem; }
+    .fw .for li {
+      width: 25%;
+      text-align: center; }
+    .fw .for li:nth-of-type(1) {
+      color: #39C893; }
+  .fw .mf {
+    width: 100%; }
+    .fw .mf div {
+      height: 1.06rem;
+      background: #333333;
+      position: relative;
+      overflow: hidden;
+      display: flex; }
+      .fw .mf div span {
+        font-size: 0.24rem;
+        background: #61D3A8;
+        color: white;
+        position: absolute;
+        border-radius: 50%;
+        padding: 0.2rem;
+        left: -0.2rem;
+        top: -0.2rem;
+        line-height: 0.2rem; }
+      .fw .mf div img {
+        width: 4.12rem;
+        margin-left: 0.5rem; }
+      .fw .mf div p {
+        margin: 0.29rem 0 0 0.3rem;
+        width: 2rem;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        background: #FEB605;
+        color: white;
+        border-radius: 25px;
+        font-size: 0.24rem; }
+    .fw .mf img {
+      margin: 0; }
+
+/*# sourceMappingURL=seven.css.map */

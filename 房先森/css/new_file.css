@@ -1,0 +1,390 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html {
+  font-family: "微软雅黑"; }
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-right: 0.768rem; }
+  header img {
+    margin: 0.68rem 0 0.68rem 0.768rem; }
+  header .rig {
+    display: flex; }
+    header .rig div {
+      text-align: center;
+      font-size: 0.938rem;
+      color: #999999;
+      margin: 1.6rem 0 0 1.5rem; }
+      header .rig div span {
+        font-size: 1.92rem; }
+
+.swiper1 {
+  width: 100%; }
+  .swiper1 img {
+    width: 100%; }
+  .swiper1 .swiper-pagination-bullet {
+    color: #7c7c7c;
+    width: 0.512; }
+  .swiper1 .swiper-pagination-bullet-active {
+    color: #00be9c; }
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-bottom: 1.70rem;
+  padding-top: 1.536rem;
+  border-bottom: 0.768rem solid #eaeaea; }
+  nav li {
+    width: 25%;
+    text-align: center;
+    text-align: center;
+    font-size: 1.194rem;
+    color: #333; }
+    nav li p {
+      margin: 0 auto;
+      font-size: 2.9rem !important;
+      width: 5.12rem;
+      height: 5.12rem;
+      border-radius: 50%;
+      line-height: 5.12rem;
+      color: white; }
+  nav li:nth-of-type(1) {
+    margin-bottom: 2.21rem; }
+    nav li:nth-of-type(1) p {
+      background: #39c894; }
+  nav li:nth-of-type(2) {
+    margin-bottom: 2.21rem; }
+    nav li:nth-of-type(2) p {
+      background: #feb505; }
+  nav li:nth-of-type(3) {
+    margin-bottom: 2.21rem; }
+    nav li:nth-of-type(3) p {
+      background: #eed215; }
+  nav li:nth-of-type(4) {
+    margin-bottom: 2.21rem; }
+    nav li:nth-of-type(4) p {
+      background: #00b2b2; }
+  nav li:nth-of-type(5) p {
+    background: #1b9af7; }
+  nav li:nth-of-type(6) p {
+    background: #7b72e9; }
+  nav li:nth-of-type(7) p {
+    background: #ff4351; }
+  nav li:nth-of-type(8) p {
+    background: #fe8864; }
+
+article {
+  width: 100%; }
+  article .qwzx {
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 0 0.768rem; }
+    article .qwzx .q1 {
+      width: 100%;
+      height: 1.792rem;
+      line-height: 1.792rem;
+      border-left: 0.213rem solid #38c993; }
+      article .qwzx .q1 span {
+        font-size: 1.536rem; }
+      article .qwzx .q1 font {
+        font-size: 1.024rem;
+        color: #999; }
+    article .qwzx .swiper2 {
+      margin-top: 1.365rem;
+      width: 100%; }
+      article .qwzx .swiper2 img {
+        width: 100%; }
+      article .qwzx .swiper2 .swiper-pagination {
+        position: static;
+        margin-top: 0.853rem; }
+    article .qwzx .therr {
+      width: 100%;
+      display: flex;
+      margin: 1.536rem 0;
+      justify-content: space-between; }
+      article .qwzx .therr div {
+        font-size: 1.194rem; }
+        article .qwzx .therr div span {
+          margin-right: 0.512rem;
+          font-size: 1.536rem;
+          color: #38c993; }
+  article .zxyy {
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 0 0.768rem; }
+    article .zxyy .q1 {
+      width: 100%;
+      height: 1.792rem;
+      line-height: 1.792rem;
+      border-left: 0.213rem solid #38c993; }
+      article .zxyy .q1 span {
+        font-size: 1.536rem; }
+      article .zxyy .q1 font {
+        font-size: 1.024rem;
+        color: #999; }
+    article .zxyy .inp {
+      width: 100%;
+      text-align: center;
+      margin-top: 3rem; }
+      article .zxyy .inp input {
+        outline: none;
+        width: 25rem;
+        height: 2.98rem;
+        border: 1px solid #EAEAEA;
+        margin-bottom: 1.06rem;
+        font-size: 1.194rem;
+        color: #cacaca; }
+      article .zxyy .inp button {
+        border: none;
+        outline: none;
+        font-size: 1.536rem;
+        width: 25rem;
+        height: 2.98rem;
+        margin-bottom: 1.536rem;
+        color: white;
+        background: #FEB605; }
+  article .sjs {
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 0 0.768rem; }
+    article .sjs .q1 {
+      width: 100%;
+      height: 1.792rem;
+      line-height: 1.792rem;
+      border-left: 0.213rem solid #38c993;
+      margin-bottom: 1.7rem; }
+      article .sjs .q1 span {
+        font-size: 1.536rem; }
+    article .sjs .foru {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      article .sjs .foru div {
+        text-align: center; }
+        article .sjs .foru div img {
+          height: 5.97rem;
+          width: 5.97rem; }
+        article .sjs .foru div span {
+          font-size: 1.536rem; }
+        article .sjs .foru div p {
+          margin: 1rem 0 1.536rem 0;
+          width: 5.12rem;
+          height: 1.36rem;
+          background: #39C893;
+          color: white;
+          font-size: 1.024rem; }
+    article .sjs .hyh {
+      width: 100%;
+      margin: 1.536rem 0;
+      display: flex; }
+      article .sjs .hyh div {
+        width: 50%;
+        border: 1px solid lightgray;
+        height: 2.98rem;
+        line-height: 2.98rem;
+        font-size: 1.194rem;
+        color: #39C893;
+        text-align: center; }
+        article .sjs .hyh div span {
+          font-size: 1.194rem; }
+  article .xgt {
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 0 0.768rem; }
+    article .xgt .q1 {
+      width: 100%;
+      height: 1.792rem;
+      line-height: 1.792rem;
+      border-left: 0.213rem solid #38c993;
+      margin-bottom: 1.7rem; }
+      article .xgt .q1 span {
+        font-size: 1.536rem; }
+    article .xgt .img .img1 {
+      width: 30.54rem;
+      height: 21.589rem;
+      margin-bottom: 0.341rem; }
+    article .xgt .img .img2 {
+      width: 48.9%; }
+    article .xgt .img .lef {
+      margin-right: 0.341rem; }
+    article .xgt .hyh {
+      width: 100%;
+      margin: 1.536rem 0;
+      display: flex; }
+      article .xgt .hyh div {
+        width: 50%;
+        border: 1px solid lightgray;
+        height: 2.98rem;
+        line-height: 2.98rem;
+        font-size: 1.194rem;
+        color: #39C893;
+        text-align: center; }
+        article .xgt .hyh div span {
+          font-size: 1.194rem; }
+  article .gdzb {
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 0 0.768rem; }
+    article .gdzb .q1 {
+      width: 100%;
+      height: 1.792rem;
+      line-height: 1.792rem;
+      border-left: 0.213rem solid #38c993;
+      margin-bottom: 1.7rem; }
+      article .gdzb .q1 span {
+        font-size: 1.536rem; }
+    article .gdzb .zq {
+      width: 100%;
+      display: flex;
+      line-height: 28px;
+      margin-top: 1.536rem; }
+      article .gdzb .zq span {
+        font-size: 28px; }
+      article .gdzb .zq p {
+        margin: 0 0 0 1rem;
+        background: #39C893;
+        color: white;
+        font-size: 24px; }
+    article .gdzb .hyh {
+      width: 100%;
+      margin: 1.536rem 0;
+      display: flex; }
+      article .gdzb .hyh div {
+        width: 50%;
+        border: 1px solid lightgray;
+        height: 2.98rem;
+        line-height: 2.98rem;
+        font-size: 1.194rem;
+        color: #39C893;
+        text-align: center; }
+        article .gdzb .hyh div span {
+          font-size: 1.194rem; }
+  article .zxgl {
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 0 0.768rem; }
+    article .zxgl .q1 {
+      width: 100%;
+      height: 1.792rem;
+      line-height: 1.792rem;
+      border-left: 0.213rem solid #38c993;
+      margin-bottom: 1.7rem; }
+      article .zxgl .q1 span {
+        font-size: 1.536rem; }
+    article .zxgl .content {
+      width: 100%; }
+      article .zxgl .content .dd {
+        width: 100%;
+        display: flex;
+        color: #999;
+        padding-bottom: 1.32rem;
+        border-bottom: 1px solid #999;
+        margin-bottom: 1.36rem; }
+        article .zxgl .content .dd img {
+          width: 8.1rem;
+          height: 6.18rem;
+          margin-right: 0.93rem; }
+        article .zxgl .content .dd p {
+          margin: 0 0 0.93rem 0;
+          font-size: 1.536rem;
+          color: #000; }
+        article .zxgl .content .dd span {
+          font-size: 1.194rem; }
+        article .zxgl .content .dd span:nth-of-type(2) {
+          margin-left: 3.2rem; }
+    article .zxgl .hyh {
+      width: 100%;
+      margin: 1.536rem 0;
+      display: flex; }
+      article .zxgl .hyh div {
+        width: 50%;
+        border: 1px solid lightgray;
+        height: 2.98rem;
+        line-height: 2.98rem;
+        font-size: 1.194rem;
+        color: #39C893;
+        text-align: center; }
+        article .zxgl .hyh div span {
+          font-size: 1.194rem; }
+  article .foot {
+    width: 100%;
+    border-bottom: 0.768rem solid #eaeaea;
+    box-sizing: border-box;
+    padding: 1.365rem 0.768rem 1.536rem 0.768rem; }
+    article .foot .q1 {
+      width: 100%;
+      font-size: 1.194rem;
+      color: #333; }
+  article .fw {
+    width: 100%;
+    text-align: center;
+    font-size: 1.194rem;
+    padding-top: 1.536rem;
+    position: relative; }
+    article .fw span {
+      font-size: 1.36rem;
+      color: #39C893; }
+    article .fw .top {
+      position: absolute;
+      right: 1.5rem;
+      width: 4rem;
+      height: 4rem;
+      border: 1px solid #dedede;
+      border-radius: 50%;
+      line-height: 4rem;
+      background: white;
+      top: -1.5rem; }
+      article .fw .top span {
+        font-size: 1.7rem;
+        color: #9c9c9c; }
+    article .fw .for {
+      width: 100%;
+      display: flex;
+      margin-top: 1.536rem; }
+      article .fw .for li {
+        width: 25%;
+        text-align: center; }
+      article .fw .for li:nth-of-type(1) {
+        color: #39C893; }
+    article .fw .mf {
+      width: 100%; }
+      article .fw .mf div {
+        height: 4.52rem;
+        background: #333333;
+        position: relative;
+        overflow: hidden;
+        display: flex; }
+        article .fw .mf div span {
+          font-size: 1.024rem;
+          background: #61D3A8;
+          color: white;
+          position: absolute;
+          border-radius: 50%;
+          padding: 0.5rem;
+          left: -0.5rem;
+          top: -0.3rem;
+          text-align: right; }
+        article .fw .mf div img {
+          margin-left: 1.7rem; }
+        article .fw .mf div p {
+          margin: 1.194rem 0 0 1.3rem;
+          width: 7.46rem;
+          height: 2.13rem;
+          line-height: 2.13rem;
+          background: #FEB605;
+          color: white;
+          border-radius: 25px;
+          font-size: 1.024rem; }
+      article .fw .mf img {
+        margin: 0; }
+
+/*# sourceMappingURL=new_file.css.map */
